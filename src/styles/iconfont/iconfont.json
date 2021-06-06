@@ -1,0 +1,30 @@
+{
+  "id": "2594509",
+  "name": "demo-travel-app",
+  "font_family": "iconfont",
+  "css_prefix_text": "travel-",
+  "description": "基于vue2.5的旅行app项目",
+  "glyphs": [
+    {
+      "icon_id": "938319",
+      "name": "back",
+      "font_class": "back",
+      "unicode": "e677",
+      "unicode_decimal": 58999
+    },
+    {
+      "icon_id": "1462916",
+      "name": "search",
+      "font_class": "search",
+      "unicode": "e63e",
+      "unicode_decimal": 58942
+    },
+    {
+      "icon_id": "19102897",
+      "name": "arrow down",
+      "font_class": "arrowdown",
+      "unicode": "e628",
+      "unicode_decimal": 58920
+    }
+  ]
+}
