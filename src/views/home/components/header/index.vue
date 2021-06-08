@@ -7,8 +7,9 @@
       <svg-icon iconname="travel-search" />输入城市/景点/游玩主题
     </div>
     <div class="header-right">
-      城市
-      <svg-icon iconname="travel-arrowdown" />
+      <router-link to="/city"
+        >城市 <svg-icon iconname="travel-arrowdown"
+      /></router-link>
     </div>
   </div>
 </template>
@@ -47,6 +48,9 @@ export default {
     width: 1.24rem;
     float: right;
     text-align: center;
+    a {
+      color: #fff;
+    }
   }
 }
 </style>
