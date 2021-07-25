@@ -1,12 +1,6 @@
 <template>
   <ul class="alphabet-wrapper">
-    <li>A</li>
-    <li>B</li>
-    <li>C</li>
-    <li>D</li>
-    <li>E</li>
-    <li>F</li>
-    <li>G</li>
+    <li v-for="item in list" :key="item">{{ item }}</li>
   </ul>
 </template>
 <script>
@@ -15,14 +9,43 @@ export default {
   props: {},
   components: {},
   data() {
-    return {};
+    return {
+      list: [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M",
+        "N",
+        "O",
+        "P",
+        "Q",
+        "R",
+        "S",
+        "T",
+        "U",
+        "V",
+        "W",
+        "X",
+        "Y",
+        "Z",
+      ],
+    };
   },
 };
 </script>
 <style scoped lang="less">
 .alphabet-wrapper {
   width: 0.4rem;
-  position: absolute;
+  position: fixed;
   right: 0;
   top: 1.58rem;
   bottom: 0;
@@ -31,7 +54,8 @@ export default {
   flex-direction: column;
   justify-content: center;
   li {
-    line-height: 0.44rem;
+    font-size: 0.1rem;
+    line-height: 0.33rem;
     text-align: left;
   }
 }

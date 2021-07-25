@@ -8,7 +8,7 @@
     </div>
     <div class="header-right">
       <router-link to="/city"
-        >城市 <svg-icon iconname="travel-arrowdown"
+        >上海 <svg-icon iconname="travel-arrowdown"
       /></router-link>
     </div>
   </div>
@@ -23,8 +23,8 @@ export default {
 <style lang="less" scoped>
 @import "~@/styles/varibles.less";
 .home-header {
-  height: 0.86rem;
-  line-height: 0.86rem;
+  height: @headerHeight;
+  line-height: @headerHeight;
   display: flex;
   background: @bgColor;
   color: #fff;
